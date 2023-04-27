@@ -5,6 +5,12 @@
               alert      //alert é parâmetro para popup no navegador.
 
               <script>
+
+        function pulaLinha () {                         //criação de função -- obedecer convenção de nomenclatura e posição
+            document.write("<br>");       
+        
+        }  
+
         var ano = 2017;  // declaração de variável -- ano recebe --> 2017 - variável sempre deve iniciar com mínuscula
                 alert ("Isso sim é um popup");   // popup navegador
                 document.write("Escrever textos dinâmicos em java script"); // tipo texto / textos dinâmicos em javaScript, porém no mundo html.
@@ -15,7 +21,8 @@
                 document.write("<br>"); //espaçamento de 1 linha
                 document.write("Beto tem " + (2016 - 1990) + " anos"); //concatenação texto + expressão + texto
                 document.write("Beto tem " + (ano - 1990) + " anos"); //concatenação texto + expressão com variável + texto)
-
+                document.write(Math.round(3/4)); //Cálculo com arredondamento (Math.round)
+        pulaLinha(); //chama a função declarada.
             ano = 2017;  // reatribuição de variável (var só é utilizado na primeira atribuição)
             </script>
             
