@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha () {                         //criação de função -- obedecer convenção de nomenclatura e posição. Para executar a função é necessário chamá-la.
+            document.write("<br>");
+            document.write("<br>");      
+        
+        }
+
+    function mostra(frase) {                        //criação de função -- obedecer convenção de nomenclatura e posição  
+            document.write(frase);
+            pulaLinha();
+        
+        }
+    
+    var idadeMediaQuantoTemFilhos = 28;
+    var anoAtual = 2023;
+    var quantidadeDeGeracoesAteAqui = (anoAtual-1500) / idadeMediaQuantoTemFilhos;
+
+    mostra("A quantidade de gerações até aqui é " + quantidadeDeGeracoesAteAqui);
+
+</script>
