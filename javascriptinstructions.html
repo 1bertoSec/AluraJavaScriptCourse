@@ -20,14 +20,45 @@
                 document.write("18" + "20"); //concatenação 
                 document.write("<br>"); //espaçamento de 1 linha
                 document.write("Beto tem " + (2016 - 1990) + " anos"); //concatenação texto + expressão + texto
-                document.write("Beto tem " + (ano - 1990) + " anos"); //concatenação texto + expressão com variável + texto)
+               
                 document.write(Math.round(3/4)); //Cálculo com arredondamento (Math.round)
         pulaLinha(); //chama a função declarada.
             ano = 2017;  // reatribuição de variável (var só é utilizado na primeira atribuição)
+            
+            
+        function pulaLinha () {                         //criação de função -- obedecer convenção de nomenclatura e posição. Para executar a função é necessário chamá-la.
+            document.write("<br>");
+            document.write("<br>");      
+        
+        }
+
+        function mostra(frase) {                        //criação de função -- obedecer convenção de nomenclatura e posição  
+            document.write(frase);
+            pulaLinha();
+        
+        }
+
+        
+</script>
+
+
+
+            <meta charset="UTF-8">
+            <script>
+                function fazPegadinha() {
+                    alert("Olá");
+                    alert("amiga!");
+                    alert("Tá");
+                    alert("bastante");
+                    alert("entediada?");
+                    alert("Em ficar");
+                    alert("Clicando em");
+                    alert("Ok");
+                    alert("né?");
+                }
+            
+                fazPegadinha();                      // Depois de criar função, é necessário chamá-la para execução.
+            
             </script>
-            
 
 
-
-
-            
