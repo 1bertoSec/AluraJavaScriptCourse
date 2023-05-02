@@ -4,21 +4,22 @@
 
         
     function pulaLinha () {                         
-            document.write("<br><hr><br>");
+            document.write("<br>");
           
-        }
+    }
 
     function mostra(frase) {                          
             document.write("<big>" + frase + "</big>");
             pulaLinha();
         
-        }
+    }
 
-    for (var multiplicador = 1; multiplicador <= 10; multiplicador++) {
-        mostra("Tabuada do " + multiplicador);
-        
-        }
-    
   
-
+    for(var linha = 1; linha <= 3; linha++) {
+        for(var coluna = 1; coluna <=10; coluna++) {
+            document.write("*");
+        }
+        pulaLinha();
+    }
+ 
 </script>   
